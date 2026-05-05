@@ -152,10 +152,3 @@ on-mode-changed = []
     alt-shift-c = 'move-node-to-workspace C'
     alt-shift-m = 'move-node-to-workspace M'
     alt-shift-n = 'move-node-to-workspace N'
-
-ctrl-g = '''exec-and-forget osascript -e '
-tell application "Terminal"
-    do script
-    activate
-end tell'
-'''
