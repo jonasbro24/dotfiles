@@ -14,3 +14,7 @@ vim.opt.tabstop = tabwidth
 vim.opt.softtabstop = tabwidth
 vim.opt.shiftwidth = tabwidth
 vim.opt.expandtab = true
+
+-- search
+vim.opt.smartcase = true
+vim.opt.ignorecase = true
